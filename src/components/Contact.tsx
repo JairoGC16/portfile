@@ -37,10 +37,10 @@ export default function Contact() {
       transition={{ duration: 0.8 }}
       className="py-10 sm:py-16 flex flex-col items-center px-2 sm:px-6"
     >
-      <h2 className="text-2xl sm:text-3xl font-bold mb-8">Contacto</h2>
+  <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center w-full">Contacto</h2>
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-md bg-white rounded-xl shadow-md p-4 sm:p-8 border border-slate-100"
+        className="w-full max-w-3xl bg-white rounded-xl shadow-md p-4 sm:p-8 border border-slate-100"
       >
         <input
           type="text"
@@ -87,8 +87,8 @@ export default function Contact() {
       </form>
       <p className="mt-6 text-slate-500 text-xs sm:text-sm">
         O escríbeme a{" "}
-        <a href="mailto:tuemail@dominio.com" className="underline">
-          tuemail@dominio.com
+        <a href="mailto:jairoirineo1604@gmail.com"  className="underline">
+          jairoirineo1604@gmail.com
         </a>
       </p>
     </motion.section>
