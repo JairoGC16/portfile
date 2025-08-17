@@ -77,7 +77,7 @@ export default function Experience() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="w-full max-w-4xl mx-auto py-10 px-4 sm:px-8"
+      className="py-10 sm:py-16 px-2 sm:px-6"
     >
       <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center md:text-left">
     Experiencia Laboral
