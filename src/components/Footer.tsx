@@ -37,7 +37,7 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-900 text-white py-8 px-4 mt-12">
+    <footer className="w-full bg-slate-900 text-white py-8 px-4 mt-12">
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-4">
         {/* Íconos sociales */}
         <div className="flex gap-6">
@@ -47,7 +47,7 @@ const Footer = () => {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`text-gray-400 transition-colors duration-300 ${link.className}`}
+              className={`text-slate-400 transition-colors duration-300 ${link.className}`}
             >
               {link.icon}
             </a>
@@ -55,10 +55,10 @@ const Footer = () => {
         </div>
 
         {/* Línea divisoria */}
-        <div className="w-full border-t border-gray-700" />
+        <div className="w-full border-t border-slate-700" />
 
         {/* Texto copyright */}
-        <span className="text-sm text-gray-400 text-center">
+        <span className="text-sm text-slate-400 text-center">
           © {new Date().getFullYear()}{" "}
           <span className="text-white">JairoGC16</span>. Todos los derechos
           reservados.
