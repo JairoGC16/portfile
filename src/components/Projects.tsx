@@ -12,6 +12,15 @@ const projects = [
     link: "https://demo-pos.com",
   },
   {
+    title: "Sistema de Salud Inteligente",
+    image:
+      "https://res.cloudinary.com/dnbftqck9/image/upload/v1755389830/Screenshot_2025-08-16_181451_bsinqj.png",
+    description:
+      "Plataforma web responsiva para gestión y análisis en el sector salud.",
+    tech: ["Next.js", "Nest.js", "Tailwind", "Motion.dev"],
+    link: "https://demo-health.com",
+  },
+  {
     title: "Gestión de Transporte Nocturno",
     image:
       "https://res.cloudinary.com/<tu-cloud-name>/image/upload/v1234567890/project-transport.jpg",
@@ -28,15 +37,6 @@ const projects = [
       "Aplicación web con microservicios para comunicación y seguridad.",
     tech: ["Next.js", "Nest.js", "Tailwind", "Microservices"],
     link: "https://demo-gov.com",
-  },
-  {
-    title: "Sistema de Salud Inteligente",
-    image:
-      "https://res.cloudinary.com/<tu-cloud-name>/image/upload/v1234567890/project-health.jpg",
-    description:
-      "Plataforma web responsiva para gestión y análisis en el sector salud.",
-    tech: ["Next.js", "Nest.js", "Tailwind", "Motion.dev"],
-    link: "https://demo-health.com",
   },
 ];
 
