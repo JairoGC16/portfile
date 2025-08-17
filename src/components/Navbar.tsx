@@ -36,13 +36,12 @@ export default function Navbar() {
               {link.icon}
             </a>
           ))}
-          <a
+          {/* <a
             href="https://drive.google.com/uc?export=download&id=12BQRYmrREocCnh2IqCWlBtdD2E6vIW_H"
             className="flex items-center gap-1 px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors text-sm font-medium"
           >
             <FaFileDownload size={18} />
-            CV
-          </a>
+          </a> */}
         </div>
         {/* Mobile */}
         <button
@@ -77,13 +76,12 @@ export default function Navbar() {
                 <span className="text-sm">{link.label}</span>
               </a>
             ))}
-            <a
+            {/* <a
               href="https://drive.google.com/uc?export=download&id=12BQRYmrREocCnh2IqCWlBtdD2E6vIW_H"
               className="flex items-center gap-2 px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors text-sm font-medium"
             >
               <FaFileDownload size={18} />
-              CV
-            </a>
+            </a> */}
           </motion.div>
         )}
       </AnimatePresence>
