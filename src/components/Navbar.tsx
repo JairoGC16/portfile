@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaGithub, FaLinkedin, FaFileDownload, FaBars } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaBars } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 
 const socialLinks = [
