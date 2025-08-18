@@ -31,7 +31,7 @@ export default function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={link.label}
-              className="text-slate-600 hover:text-blue-600 transition-colors"
+              className="text-slate-600 hover:text-blue-600 transition-colors focus:text-blue-600"
             >
               {link.icon}
             </a>
@@ -45,7 +45,7 @@ export default function Navbar() {
         </div>
         {/* Mobile */}
         <button
-          className="sm:hidden flex items-center text-slate-600 hover:text-blue-600 focus:outline-none"
+          className="sm:hidden flex items-center text-slate-600 hover:text-blue-600 focus:text-blue-600 focus:outline-none"
           onClick={() => setOpen(!open)}
           aria-label="Abrir menú"
         >
