@@ -37,7 +37,9 @@ export default function Contact() {
       transition={{ duration: 0.8 }}
       className="py-10 sm:py-16 flex flex-col items-center px-2 sm:px-6"
     >
-  <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center w-full">Contacto</h2>
+      <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center w-full">
+        Contacto
+      </h2>
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-3xl bg-white rounded-xl shadow-md p-4 sm:p-8 border border-slate-100"
@@ -49,7 +51,7 @@ export default function Contact() {
           value={form.name}
           onChange={handleChange}
           required
-          className="w-full mb-4 px-3 py-2 sm:px-4 sm:py-2 border rounded focus:outline-none focus:ring text-sm sm:text-base"
+          className="w-full mb-4 px-3 py-2 sm:px-4 sm:py-2 border rounded focus:outline-none focus:border-slate-500 text-sm sm:text-base"
         />
         <input
           type="email"
@@ -58,7 +60,7 @@ export default function Contact() {
           value={form.email}
           onChange={handleChange}
           required
-          className="w-full mb-4 px-3 py-2 sm:px-4 sm:py-2 border rounded focus:outline-none focus:ring text-sm sm:text-base"
+          className="w-full mb-4 px-3 py-2 sm:px-4 sm:py-2 border rounded focus:outline-none focus:border-slate-500 text-sm sm:text-base"
         />
         <textarea
           name="message"
@@ -66,13 +68,13 @@ export default function Contact() {
           value={form.message}
           onChange={handleChange}
           required
-          className="w-full mb-4 px-3 py-2 sm:px-4 sm:py-2 border rounded focus:outline-none focus:ring text-sm sm:text-base"
           rows={5}
+          className="w-full mb-4 px-3 py-2 sm:px-4 sm:py-2 border rounded focus:outline-none focus:border-slate-500 text-sm sm:text-base resize-none h-32"
         />
         <button
           type="submit"
           disabled={loading}
-          className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition-colors text-sm sm:text-base"
+          className="w-full bg-blue-600 text-white py-2 hover:cursor-pointer focus:bg-blue-700  rounded hover:bg-blue-700 transition-colors text-sm sm:text-base focus:border-slate-500"
         >
           {loading ? "Enviando..." : "Enviar mensaje"}
         </button>
@@ -85,9 +87,9 @@ export default function Contact() {
           <p className="text-red-600 mt-4 text-sm sm:text-base">{error}</p>
         )}
       </form>
-      <p className="mt-6 text-slate-500 text-xs sm:text-sm">
+      <p className="mt-6 text-slate-500 text-xs sm:text-sm select-text">
         O escríbeme a{" "}
-        <a href="mailto:jairoirineo1604@gmail.com"  className="underline">
+        <a href="mailto:jairoirineo1604@gmail.com" className="underline ">
           jairoirineo1604@gmail.com
         </a>
       </p>
