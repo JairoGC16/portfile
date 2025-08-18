@@ -66,7 +66,7 @@ function SkillIcon({
       >
         {icon}
       </div>
-      <span className="text-sm pt-2 text-slate-700 text-center">{name}</span>
+      <span className="text-sm pt-2 text-slate-800 text-center">{name}</span>
     </div>
   );
 }
