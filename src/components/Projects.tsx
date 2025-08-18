@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Gestión de Transporte Nocturno",
     image:
-      "https://res.cloudinary.com/<tu-cloud-name>/image/upload/v1234567890/project-transport.jpg",
+      "https://res.cloudinary.com/dnbftqck9/image/upload/v1755472892/IMG-20240527-WA0051_mhlmrl.jpg",
     description:
       "PWA para administración de transporte nocturno con programación automática.",
     tech: ["Next.js", "TypeScript", "Tailwind", "PWA"],
