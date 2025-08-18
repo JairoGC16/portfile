@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "Jairo Gonzalez Portafolio",
     images: [
       {
-        url: "/profile.jpg",
+        url: "https://res.cloudinary.com/dnbftqck9/image/upload/v1755276785/IMG-20250328-WA0115_gchnjt.jpg",
         width: 400,
         height: 400,
         alt: "Foto de Jairo Gonzalez"
