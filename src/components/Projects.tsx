@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Plataforma de Comunicación Gubernamental",
     image:
-      "https://res.cloudinary.com/<tu-cloud-name>/image/upload/v1234567890/project-gov.jpg",
+      "https://res.cloudinary.com/dnbftqck9/image/upload/v1755622089/Captura_de_pantalla_2025-08-19_104719_sid0sw.png",
     description:
       "Aplicación web con microservicios para comunicación y seguridad.",
     tech: ["Next.js", "Nest.js", "Tailwind", "Microservices"],
