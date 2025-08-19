@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
@@ -28,6 +29,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
+    "next-export-optimize-images": "^4.6.2",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.6",
     "typescript": "^5"
