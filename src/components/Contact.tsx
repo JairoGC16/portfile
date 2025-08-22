@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import * as motion from "motion/react-client";
+import { send } from "emailjs-com";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -19,9 +20,15 @@ export default function Contact() {
     setLoading(true);
     setError("");
     try {
-      // todo Aquí deberías integrar tu backend o servicio de email
-      await new Promise((res) => setTimeout(res, 1500));
+      
+      await send(
+        "service_0upwewn",
+        "template_lyl0ite",
+        form,
+        "ZZZIJYi9eHWmlRFCc"
+      )
       setSent(true);
+      setForm({ name: "", email: "", message: "" });
     } catch {
       setError("No se pudo enviar el mensaje. Intenta de nuevo.");
     } finally {
