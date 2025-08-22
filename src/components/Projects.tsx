@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Sistema de Punto de Venta en la Nube",
     image:
-      "https://res.cloudinary.com/<tu-cloud-name>/image/upload/v1234567890/project-pos.jpg",
+      "https://res.cloudinary.com/dnbftqck9/image/upload/v1755886950/Captura_de_pantalla_2025-08-22_122058_soiua4.png",
     description:
       "Aplicación para PyMEs que optimiza gestión de ventas y operaciones.",
     tech: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
